@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+    background: #bdcbe5;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+/* Tabs container styling */
+.dash-tabs {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    outline: none;
+    line-height: 1;
+}
+
+/* Tabs labels styling (default state) */
+.dash-tabs .tab {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 10px 5px !important; /* Important for padding */
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    color: #808080;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Tabs labels hover effect */
+.dash-tabs .tab:hover {
+    opacity: 1;
+}
+
+/* Active tab styling */
+.dash-tabs .tab--selected {
+    background: #2b82d9;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
+    /* border-bottom: 10px solid #2b82d9; */
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Tabs content styling */
+.dash-tabs-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+    color: #333;
+    margin-top: 10px;
+}
